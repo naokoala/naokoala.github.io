@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+/* @media (min-width: 0px) and (max-width: 599px){
+  float: none;
+}
+/* common */
+/* small screen */
+
+.layouts{
+  display: block;
+  float: none;
+}
+
+/* medium screen */
+@media (min-width: 600px){
+} 
+
+/* large screen */
+@media (min-width: 800px){
+}
+ 
+main{
+  margin: 0 auto;
+  /* width: 800px; */
+}
+
+header{
+  height: 400px;
+  background-image: url(../publicdomainq-0019634pdh.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  color: aliceblue;
+  margin-top: 13%;
+}
+
+.desc{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 5%;
+}
+
+main{
+ background-color: hsla(154, 100%, 95%, 0.5);
+ margin: 0px;
+}
+
+.contents{
+  list-style: none;
+  border: 1px solid blue;
+  background-color:rgba(204,204,204,0.3);
+  line-height: 2em;
+  height: auto;
+  width: 400px;
+  margin: 50px auto;
+  padding-left: 5px;
+  align-items: center;
+
+}
+
+
+h2{
+  margin-top: 80px;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h3{
+  margin-top: 0px;
+  font-weight: lighter;
+}
+
+
+
+
+.naokoaraintro{
+  display: flex;
+  justify-content: center;
+}
+
+.me{
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  height: 40%;
+  margin-right: 5%;
+  /* margin-right: 100px;
+  margin-left: 100px; */
+}
+
+.me > h3{
+  text-align: center;
+}
+
+.logo > img{
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+.selfdesc{
+  height: 60%;
+  width: 500px;
+}
+
+.selfdesc > span{
+  color: red;
+}
+
+
+.ausintro{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aush3{
+  text-align: center;
+  background: hsla(154, 100%, 70%, 0.5);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+.ausintro h4{
+  width: 60%;
+  background: hsla(154, 100%, 70%, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+
+.ausintro > div{
+  margin-left: 3%;
+  margin-right: 3%;
+  /* width: calc(100%-(10%*4)); */
+  width: 20%;
+  height: auto;
+  background: hsla(154, 100%, 88%, 0.5);
+  padding: 3%;
+}
+
+.abschool{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abschool > div{
+  width: 70%;
+  height: auto;
+  background: hsla(154, 100%, 88%, 0.5);
+  text-align: center;
+  margin-top: 10%;
+  padding: 3%;
+}
+
+.abschool h3{
+  padding-top: 2%;
+  width: 60%;
+  height: 60%;
+  background: hsla(154, 100%, 70%, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+
+.abhomestay{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+.abhomestay > div{
+  width: 45%;
+  height: 60%;
+  background: hsla(154, 100%, 88%, 0.5);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.abhomestay h3{
+  padding-top: 3%;
+  width: 70%;
+  height: auto;
+  background: hsla(154, 100%, 70%, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.procon{
+  display: flex;
+  display: space-evenly;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.procon > div{
+  width: 45%;
+  background-color: hsla(154, 100%, 88%, 0.5);
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 2%;
+}
+
+.procon h3{
+  padding-top: 3%;
+  width: 70%;
+  height: 40px;
+  background: hsla(154, 100%, 70%, 0.5);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.friends > ul{
+  list-style-position: inside;
+}
+
+
+footer{
+  height: auto;
+  background-color: hsla(154, 100%, 88%, 0.5);
+}
+
+footer h2{
+  font-size: 20px;
+}
+
+.message{
+  display: flex;
+  height: auto;
+  padding: 2%;
+}
+
+
+
+.msgtxt{
+flex: 1;
+}
+
+
+
