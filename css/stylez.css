@@ -10,6 +10,13 @@
    */
 @media (min-width: 0px) and (max-width:480px){
 
+  .title{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .ausintro {
     width: 100%;
     flex-wrap: wrap;
@@ -17,17 +24,17 @@
 
   .ausintro > div{
     width: 90%;
-    padding: 3%;
+    padding: 1%;
   }
   
   .abhomestay {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
 
   .abhomestay > div{
     width: 90%;
-    padding: 3%;
-
+    padding: 1%;
   }
 }
 
