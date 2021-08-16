@@ -229,11 +229,12 @@ h3{
 }
 
 .abhomestay > div{
-  width: 45%;
+  width: 40%;
   height: 60%;
   background: hsla(154, 100%, 88%, 0.5);
   margin-top: 30px;
   margin-left: 30px;
+  padding: 2%;
 }
 
 .abhomestay h3{
