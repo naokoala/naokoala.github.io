@@ -6,17 +6,54 @@
 /* common */
 /* small screen */
 
-.layouts{
-  display: block;
-  float: none;
+/* @media (min-width: 0px) and (max-width: 599px){
+   */
+@media (min-width: 0px) and (max-width:480px){
+
+  .ausintro {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .ausintro > div{
+    width: 90%;
+    padding: 3%;
+  }
+  
+  .abhomestay {
+    flex-wrap: wrap;
+  }
+
+  .abhomestay > div{
+    width: 90%;
+    padding: 3%;
+
+  }
 }
+
 
 /* medium screen */
 @media (min-width: 600px){
+  /* .ausintro {
+    display: flex;
+  }
+  
+  .abhomestay > div{
+    display: flex;
+  }
+   */
 } 
 
 /* large screen */
 @media (min-width: 800px){
+  /* .ausintro {
+    display: flex;
+  }
+  
+  .abhomestay > div{
+    display: flex;
+  } */
+
 }
  
 main{
@@ -147,8 +184,9 @@ h3{
 .ausintro > div{
   margin-left: 3%;
   margin-right: 3%;
+  margin-bottom: 3%;
   /* width: calc(100%-(10%*4)); */
-  width: 20%;
+  width: 100%;
   height: auto;
   background: hsla(154, 100%, 88%, 0.5);
   padding: 3%;
