@@ -8,59 +8,17 @@
 
 /* @media (min-width: 0px) and (max-width: 599px){
    */
-@media (min-width: 0px) and (max-width:480px){
 
-  .title{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
 
-  .ausintro {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-
-  .ausintro > div{
-    width: 90%;
-    padding: 1%;
-  }
-  
-  .abhomestay {
-    /* display: flex;
-    flex-direction: column; */
-    display: block;
-  }
-
-  .abhomestay > div{
-    width: 99%;
-    padding: 1%;
-  }
-}
+   
 
 
 /* medium screen */
 @media (min-width: 600px){
-  /* .ausintro {
-    display: flex;
-  }
-  
-  .abhomestay > div{
-    display: flex;
-  }
-   */
 } 
 
 /* large screen */
 @media (min-width: 800px){
-  /* .ausintro {
-    display: flex;
-  }
-  
-  .abhomestay > div{
-    display: flex;
-  } */
 
 }
  
@@ -232,8 +190,6 @@ h3{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
-
 }
 
 .abhomestay > div{
@@ -314,4 +270,33 @@ flex: 1;
   margin-bottom: 2%;
 }
 
+@media (min-width: 0px) and (max-width:480px){
 
+  .title{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .ausintro {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .ausintro > div{
+    width: 90%;
+    padding: 1%;
+  }
+  
+  .abhomestay {
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
+  }
+
+  .abhomestay > div{
+    width: 90%;
+    padding: 1%;
+  }
+}
