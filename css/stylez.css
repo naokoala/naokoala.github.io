@@ -221,8 +221,8 @@ h3{
 .procon > div{
   width: 45%;
   background-color: hsla(154, 100%, 88%, 0.5);
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 2%;
 }
 
@@ -299,4 +299,8 @@ flex: 1;
     width: 90%;
     padding: 1%;
   }
+}
+.abschool > div{
+  width: 90%;
+  padding: 1%;
 }
